@@ -3,21 +3,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h2>Duare Doctor</h2>
-	
-      dfldsjflsdjg
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore labore aperiam cumque nam, culpa iure est!
-       Natus, nobis! Esse blanditiis magni recusandae ipsum in debitis fugit hic, dolorum mollitia! Maiores, eligendi,
-        expedita repellendus, eum excepturi eius nulla corporis debitis nemo iusto aliquam aliquid deleniti illo rerum?
-         Expedita asperiores pariatur saepe ut quia deleniti dolorem, numquam in esse. Molestiae pariatur, ullam cumque
-          nulla inventore sunt excepturi ratione. Minus accusantium quam laboriosam voluptates a ut quas. Fugiat porro 
-          aspernatur, iure quos expedita magni sit dignissimos debitis unde voluptatibus saepe, velit omnis enim error! 
-          Fugit cumque aliquam, ipsum, odit eligendi fuga, deleniti magnam perspiciatis aliquid molestiae corrupti 
-          ducimus aperiam optio est officia! Similique voluptatem non nulla consequatur maxime vel, nam odit quidem 
-          recusandae? Inventore, quisquam dolorum.
-
-        arpan dasgood boy and sourav is a very bad boy.......
-          sourav is a bokachoda
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum quaerat excepturi adipisci quod et aperiam dolorum molestiae distinctio. Esse vitae quia libero culpa, iure animi. Fugiat ratione officia cupiditate repudiandae.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto magni minus, sapiente nemo fugit quaerat beatae sequi, ex veniam labore velit necessitatibus debitis perspiciatis ab veritatis modi. Obcaecati, quae ratione.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto quia ad adipisci voluptas blanditiis pariatur magnam, perferendis provident obcaecati ea itaque? Repellat dolores ratione dicta sit consectetur. Veniam, vel aut.
+      </p>
     </div>
   );
 }
