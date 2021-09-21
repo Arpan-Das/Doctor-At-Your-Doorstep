@@ -1,0 +1,26 @@
+.Home{
+    height:fit-content;
+}
+
+.poster{
+    width: 100%;
+}
+
+.poster__left{
+    /* flex:0.3; */
+    /* width: 30px; */
+   float: left;
+}
+.poster__right{
+    /* flex: 0.7; */
+    width: 82vw;
+    float: right;
+}
+
+.poster_right img{
+    width: 50vw;
+    height: 95vh !important;
+    object-fit: center;
+    overflow: hidden;
+    height: auto;
+}
