@@ -1,26 +1,41 @@
 .Home{
-    height:fit-content;
+    margin-top: 55px;
 }
 
-.poster{
-    width: 100%;
-}
 
-.poster__left{
-    /* flex:0.3; */
-    /* width: 30px; */
-   float: left;
-}
-.poster__right{
-    /* flex: 0.7; */
-    width: 82vw;
-    float: right;
+.poster_right{
+    padding-right: 100px;
 }
 
 .poster_right img{
-    width: 50vw;
-    height: 95vh !important;
-    object-fit: center;
-    overflow: hidden;
-    height: auto;
+    width: 1220px;
+    height: 726px;
+}
+
+.Home__title{
+    min-width: 660px;
+    background: #0a1f4c;
+    font-size: 3em;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 55%;
+    left: 6%;
+    padding-top: 10px;
+    padding-bottom: 12px;
+}
+.Home__title .arrow{
+    font-size: 1.8em;
+}
+.Home__title .white__line{
+    border: 2px solid;
+    background-color: white;
+    display: block;
+}
+
+
+.doctor__title .arrow{
+    font-size: 2em;
+    color: #0a1f4c;
 }

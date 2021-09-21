@@ -5,7 +5,7 @@ import './Nav.css';
 function Nav() {
     return (
         <div>
-            <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+            <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
                 <div className="container-fluid">
 
                     <a class="navbar-brand " href="#">
@@ -20,10 +20,13 @@ function Nav() {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="/Home">Home</a>
+                                <a className="nav-link active" aria-current="page" href="/">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="Services">Services</a>
+                                <a className="nav-link" href="/Services">Services</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="/About">About</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="Find-Doctor">Find-Doctor</a>
