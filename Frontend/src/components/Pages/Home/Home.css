@@ -63,7 +63,7 @@
     float: right;
     width: 310px;
     padding-top: 41px;
-    margin-right: 217px;
+    margin-right: 50px;
     font-size: 1.2em;
 }
 .white__container {
@@ -73,7 +73,7 @@
     font-size: 2.9em;
     font-weight: 700;
     color: #0a1f4c;
-    margin-right: 11%;
+    margin-right: 15px;
 }
 .white__arrow > .arrow {
     font-size: 100px;
@@ -88,6 +88,64 @@
 
 .about__iamge{
     position:absolute;
-    left: 220px;
-    top: 15px;
+    left: 10px;
+    top: -4px;
+}
+
+/* -----------------services section--------------------------- */
+.services{
+    background-color: #09989e;
+    padding-top: 35px;
+    padding-bottom: 40px;
+}
+
+.service__container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.service_left{
+    flex: 50%;
+}
+.serviceImage{
+    width: 500px;
+}
+.service_txt{
+    margin-top: 40px;
+    max-width: 500px;
+}
+.ourServicees h1{
+    color:white;
+    font-size: 3.8em;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.flex{
+    display:flex;
+    justify-content: center;
+}
+.service_txt section{
+    padding-top:30px;
+    padding-bottom:30px;
+    border-top:2px solid black;
+}
+.service_no{
+    padding: 15px;
+    color: rgb(92, 92, 92);
+}
+.service__title{
+    color: white;
+}
+.service_button button {
+    background-color: #ad0049;
+    padding: 10px;
+    color: white;
+    border: none;
+    width: 165px;
+    font-size: 1.5em;
+}
+.service_button {
+   
+    text-align: center;
 }

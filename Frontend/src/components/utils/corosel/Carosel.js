@@ -4,6 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 import DocCard from "../DocCard/DocCard";
 import docpic from "../../utils/image/Doc_Pic/doc1.jpg";
 
+
 function Carosel() {
   const responsive = {
     desktop: {
