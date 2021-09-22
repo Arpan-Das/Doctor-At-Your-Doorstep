@@ -3,12 +3,12 @@
 }
 
 
-.poster_right{
+/* .poster_right{
     padding-right: 100px;
-}
+} */
 
 .poster_right img{
-    width: 1220px;
+    width: 1100px;
     height: 726px;
 }
 
@@ -38,4 +38,8 @@
 .doctor__title .arrow{
     font-size: 2em;
     color: #0a1f4c;
+}
+
+.doctor__container{
+    max-width: 1200px;
 }

@@ -2,9 +2,9 @@ import './App.css';
 import Footer from './components/utils/Footer/Footer';
 import Nav from './components/utils/nav/Nav';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import About from './components/pages/About/About';
-import Services from './components/pages/Services/Services';
-import Home from './components/pages/Home/Home';
+import About from './components/Pages/About/About';
+import Services from './components/Pages/Services/Services';
+import Home from './components/Pages/Home/Home';
 import NotFound from './components/utils/NotFound/NotFound'
 
 function App() {
