@@ -2,8 +2,8 @@ import React from "react";
 import "./Home.css";
 import poster from "../../utils/image/poster.webp";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
-import DocCard from "../../DocCard/DocCard";
-import docpic from "../../utils/image/Doc_Pic/doc1.jpg";
+import aboutI from '../../utils/image/about.png';
+import Carosel from '../../utils/corosel/Carosel';
  
 function Home() {
   return (
@@ -28,39 +28,41 @@ function Home() {
           {"    "} Specialized Doctors
         </div>
         <div className="doctor__container container ">
-          <div className="row">            
-            <DocCard
-              pic={docpic}
-              name={"Dr. ABC"}
-              qualification={"Neurologist,MBBS"}
-              desc={"deals with the problem of brain and nerve"}
-            />
-            <DocCard
-              pic={docpic}
-              name={"Dr. ABC"}
-              qualification={"Neurologist,MBBS"}
-              desc={"deals with the problem of brain and nerve"}
-            />
-            <DocCard
-              pic={docpic}
-              name={"Dr. ABC"}
-              qualification={"Neurologist,MBBS"}
-              desc={"deals with the problem of brain and nerve"}
-            />
+          <div className="row"> 
+              <Carosel/>
           </div>
         </div>
       </div>
       <div className="separator" style={{}}></div>
 
       <div className="about">
-        <div className="white">
-            
-            <div className="white__text">
-
+        <div className="about__iamge">
+          <img src={aboutI} alt="" />
+        </div>
+        <div className="white">            
+            <div className="white__container">
+                <div className="white__arrow">
+                  <ArrowRightAltIcon className="arrow" />
+                </div>
+                <div className="white__text">
+                  <div className="white__line">
+                    All About
+                  </div>
+                  Our Company
+                </div>
             </div>
         </div>
-        <div className="blue"></div>
+        <div className="blue">
+          <div className="blue__text">
+            With 25 year of industry experience, <strong>Carson, Reeve, & Yates</strong> is a management consultancy 
+            firm which helps leaders make sound business decisions.
+          </div>
+        </div>
       </div>
+      <div className="separator" style={{}}></div>
+      <div className="separator" style={{}}></div>
+      <div className="separator" style={{}}></div>
+
 
     </div>
   );

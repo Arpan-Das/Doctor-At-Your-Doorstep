@@ -43,3 +43,50 @@
 .doctor__container{
     max-width: 1200px;
 }
+
+
+/*  ---------------------- about section --------------------- */
+
+.about {
+    height: 500px;
+    position:relative;
+}
+.white {
+    height: 60%;
+}
+.blue {
+    height: 40%;
+    background-color: #0c2f50;
+    color: white;
+}
+.blue__text {
+    float: right;
+    width: 310px;
+    padding-top: 41px;
+    margin-right: 44px;
+    font-size: 1.2em;
+}
+.white__container {
+    margin-top: 145px;
+    display: flex;
+    float: right;
+    font-size: 2.9em;
+    font-weight: 700;
+    color: #0a1f4c;
+}
+.white__arrow > .arrow {
+    font-size: 100px;
+    transform: translate(-22px, 18.6px);
+}
+.white__line{
+    border-bottom: 1px solid #0a1f4c;
+}
+.white__text {
+    margin-right: 50px;
+}
+
+.about__iamge{
+    position:absolute;
+    left: 80px;
+    top: 15px;
+}
