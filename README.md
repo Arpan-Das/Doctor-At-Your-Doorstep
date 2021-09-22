@@ -18,3 +18,13 @@ Hello EveryOne
                            
     e) Woooooooo Your project is ready to go (just few more step)
     
+2) Now you must have cloned the repo so now go to the /frontend folder and run the command
+
+    >npm install
+    (this command will help you to install all the dependencies for the project)
+    
+    NOTE:: till now we have nothing in the /backend folder that's why you did not need to run the npm install on that folder 
+    
+ ##
+ 
+ Now for the command to push and pull of the project
