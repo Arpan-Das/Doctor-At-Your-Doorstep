@@ -16,7 +16,7 @@ function Footer() {
                         </div>
                     </div>
                     <div className="footer-bottom">
-                        <div class="copyright" field="text" style={{ "color": "#ebebeb" }}>
+                        <div className="copyright" field="text" style={{ "color": "#ebebeb" }}>
                             (c) Doctor At Your Home 2018-2021
                         </div>
                     </div>

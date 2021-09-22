@@ -8,8 +8,8 @@ function Nav() {
             <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
                 <div className="container-fluid">
 
-                    <a class="navbar-brand " href="#">
-                        <img src={logo2} alt="" width="30" height="24" class="d-inline-block align-text-top" />
+                    <a className="navbar-brand " href="#">
+                        <img src={logo2} alt="" width="30" height="24" className="d-inline-block align-text-top" />
                         {"  "}Dr. Sourav
                     </a>
 
@@ -33,7 +33,10 @@ function Nav() {
                             </li>
                         </ul>
                     </div>
+                    <button type="button" class="btn btn-outline-success mx-1">Success</button>
+                    <button type="button" class="btn btn-outline-primary mx-1">Success</button>
                 </div>
+                
             </nav>
         </div>
     )
