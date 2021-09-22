@@ -1,0 +1,41 @@
+.Home{
+    margin-top: 55px;
+}
+
+
+.poster_right{
+    padding-right: 100px;
+}
+
+.poster_right img{
+    width: 1220px;
+    height: 726px;
+}
+
+.Home__title{
+    min-width: 660px;
+    background: #0a1f4c;
+    font-size: 3em;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 55%;
+    left: 6%;
+    padding-top: 10px;
+    padding-bottom: 12px;
+}
+.Home__title .arrow{
+    font-size: 1.8em;
+}
+.Home__title .white__line{
+    border: 2px solid;
+    background-color: white;
+    display: block;
+}
+
+
+.doctor__title .arrow{
+    font-size: 2em;
+    color: #0a1f4c;
+}
