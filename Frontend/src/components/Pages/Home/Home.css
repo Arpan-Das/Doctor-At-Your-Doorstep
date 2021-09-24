@@ -43,3 +43,164 @@
 .doctor__container{
     max-width: 1200px;
 }
+
+
+/*  ---------------------- about section --------------------- */
+
+.about {
+    height: 600px;
+    position:relative;
+    
+}
+.white {
+    height: 60%;
+}
+.blue {
+    height: 40%;
+    background-color: #0c2f50;
+    color: white;
+}
+.blue__text {
+    float: right;
+    width: 310px;
+    padding-top: 41px;
+    margin-right: 50px;
+    font-size: 1.2em;
+}
+.white__container {
+    margin-top: 145px;
+    display: flex;
+    float: right;
+    font-size: 2.9em;
+    font-weight: 700;
+    color: #0a1f4c;
+    margin-right: 15px;
+}
+.white__arrow > .arrow {
+    font-size: 100px;
+    transform: translate(-22px, 18.6px);
+}
+.white__line{
+    border-bottom: 1px solid #0a1f4c;
+}
+.white__text {
+    margin-right: 50px;
+}
+
+.about__iamge{
+    position:absolute;
+    left: 10px;
+    top: -4px;
+
+}
+
+.about2{
+    display: inline-block;
+    background: linear-gradient( white 60%, #0c2f50 0);
+    width: 100%;
+    height: 600px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+.about2__container{
+    max-width: 1200px;
+    display: flex;
+    color: black;
+}
+.about2__right{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.about2__white{
+    flex: 0.6;
+    display: flex;
+    padding-top: 140px;
+    padding-left: 36px;
+}
+.white2__arrow > .arrow {
+    color: #0c2f50;
+    font-size: 100px;
+    transform: translate(-22px, 18.6px);
+}
+.white2__line{
+    border-bottom: 3px solid #0c2f50;
+}
+.white2__text{
+    font-size: 2.6em;
+    font-weight: 700;
+    color: #0a1f4c;
+    text-align: left;
+}
+.about2__blue{
+    flex: 0.4;
+    display: flex;
+    text-align: left;
+    color: white;
+    font-size: 1.1em;
+}
+.blue2__text{
+    max-width: 280px;
+    width: 100%;
+    margin-left: auto;
+}
+
+/* -----------------services section--------------------------- */
+.services{
+    background-color: #02979d;
+    padding-top: 35px;
+    padding-bottom: 40px;
+}
+
+.service__container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.service_left{
+    flex: 50%;
+}
+.serviceImage{
+    width: 500px;
+}
+.service_txt{
+    margin-top: 40px;
+    max-width: 500px;
+}
+.ourServicees h1{
+    color:white;
+    font-size: 3.8em;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.flex{
+    display:flex;
+    justify-content: center;
+}
+.service_txt section{
+    padding-top:30px;
+    padding-bottom:30px;
+    border-top:2px solid black;
+}
+.service_no{
+    padding: 15px;
+    color: rgb(92, 92, 92);
+    font-size: 3em;
+}
+.service__title{
+    color: white;
+}
+.service_button button {
+    background-color: #ad0049;
+    padding: 10px;
+    color: white;
+    border: none;
+    width: 165px;
+    font-size: 1.5em;
+}
+.service_button {
+   
+    text-align: center;
+}

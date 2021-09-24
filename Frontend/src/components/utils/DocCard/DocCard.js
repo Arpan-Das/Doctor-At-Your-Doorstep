@@ -7,7 +7,7 @@ function DocCard(props) {
         return s.toUpperCase()
     }
   return (
-    <div className="container col-3 ">
+    <div className="container  ">
       <div className="doctor__doc ">
         <div className="doc__image">
             <img src={props.pic} alt="" style={{"width":"100px","borderRadius":"50%"}}/>
