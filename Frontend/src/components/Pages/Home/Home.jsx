@@ -3,7 +3,7 @@ import "./Home.css";
 import poster from "../../utils/image/poster.webp";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import aboutI from "../../utils/image/about.png";
-import service1 from "../../utils/image/service1.png";
+import service1 from "../../utils/image/service.png";
 import Carosel from "../../utils/corosel/Carosel";
 
 function Home() {
@@ -36,7 +36,7 @@ function Home() {
       </div>
       <div className="separator" style={{}}></div>
 
-      <div className="about">
+      {/* <div className="about">
         <div className="about__iamge">
           <img src={aboutI} alt="" />
         </div>
@@ -61,7 +61,7 @@ function Home() {
           </div>
         </div>
 
-      </div>
+      </div> */}
 
       <div className="separator" style={{}}></div>
 
@@ -92,7 +92,7 @@ function Home() {
       </div>
 
 
-      <div className="separator" style={{}}></div>
+      {/* <div className="separator" style={{}}></div> */}
 
       <div className="services">
         <div className="service__container container">

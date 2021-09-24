@@ -151,6 +151,7 @@
     background-color: #02979d;
     padding-top: 35px;
     padding-bottom: 40px;
+    background: linear-gradient(#0c2f50, #02979d);
 }
 
 .service__container{
@@ -185,12 +186,15 @@
     border-top:2px solid black;
 }
 .service_no{
-    padding: 15px;
+    padding-right: 29px;
     color: rgb(92, 92, 92);
-    font-size: 3em;
+    font-size: 5em;
 }
 .service__title{
     color: white;
+}
+.service__title h3{
+    font-size: 2.5rem;
 }
 .service_button button {
     background-color: #ad0049;
