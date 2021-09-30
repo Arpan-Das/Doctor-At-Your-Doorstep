@@ -6,6 +6,7 @@ import About from './components/Pages/About/About';
 import Services from './components/Pages/Services/Services';
 import Home from './components/Pages/Home/Home';
 import NotFound from './components/utils/NotFound/NotFound'
+import Doctors from './components/Pages/Doctors/Doctors';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route exact path="/About" component={About}/>
           <Route exact path="/Services" component={Services}/>
           <Route exact path='/' component={ Home } />
+          <Route exact path='/Find-Doctor' component={ Doctors } />
 
           {/* if someone enter some diff routes */}
           <Route component={NotFound} />
