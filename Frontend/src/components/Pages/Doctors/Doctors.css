@@ -1,0 +1,13 @@
+.doc_container{
+    margin-top: 55px;
+    background-color: bisque;
+    width: 100%;    
+}
+h1{
+    text-align: center;
+}
+.doc_details{
+    height: 100vh;
+    background-color: #f7f8f5;
+    margin: 0px 100px;
+}
