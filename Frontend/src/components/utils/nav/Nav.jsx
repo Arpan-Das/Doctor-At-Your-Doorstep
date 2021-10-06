@@ -4,14 +4,10 @@ import logo2 from '../image/logo2.png';
 import './Nav.css';
 
 function Nav() {
-    // function CloseModal(){
-        // document.getElementById("exampleModal").style.display="none"
-    //     document.getElementById("SignInPage").click()
-    //     location.replace("./Signin")
-    //     console.log("hello")
-    // }
-    // Jodi link di66i thle pager upor shade asche...r a tag dile no pblm
-    // button na diye jdi linkl di thn modal ta page upor chole as6e..
+     function CloseModal(){
+        document.getElementById("X").click()
+    }
+    
     return (
 
         <div>
@@ -57,13 +53,13 @@ function Nav() {
                     <div className="modal-content">
                     <div className="modal-header">
                         <h5 className="modal-title" id="exampleModalLabel">Sign In</h5>
-                        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <button id="X" type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div className="modal-body">
                         <div className="DrSec">
                             <p className="makeOneTxt text-center">SignIn as a Doctor</p>
                             <div className="forbtn mt-2 text-center">
-                            <button onClick={()=> document.getElementById("exampleModal").style.display="none" } className="btn btn-primary text-center"><a href="/SignIn" >Sign In</a></button>
+                            <Link to="/SignIn" onClick={()=> CloseModal()} className="btn btn-primary text-center">Sign In</Link>
                             </div>
                         </div>
                         <div className="PatientSec">
@@ -82,7 +78,7 @@ function Nav() {
                     <div className="modal-content">
                     <div className="modal-header">
                         <h5 className="modal-title" id="exampleModalLabel1">Sign Up</h5>
-                        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <button id="X" type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div className="modal-body">
                         <div className="DrSec">
