@@ -4,7 +4,16 @@ import logo2 from '../image/logo2.png';
 import './Nav.css';
 
 function Nav() {
+    // function CloseModal(){
+        // document.getElementById("exampleModal").style.display="none"
+    //     document.getElementById("SignInPage").click()
+    //     location.replace("./Signin")
+    //     console.log("hello")
+    // }
+    // Jodi link di66i thle pager upor shade asche...r a tag dile no pblm
+    // button na diye jdi linkl di thn modal ta page upor chole as6e..
     return (
+
         <div>
             <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
                 <div className="container-fluid">
@@ -51,16 +60,16 @@ function Nav() {
                         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div className="modal-body">
-                        <div class="DrSec">
-                            <p class="makeOneTxt text-center">SignIn as a Doctor</p>
-                            <div class="forbtn mt-2 text-center">
-                            <Link type="button" to="/SignIn" class="btn btn-primary text-center">Sign In</Link>
+                        <div className="DrSec">
+                            <p className="makeOneTxt text-center">SignIn as a Doctor</p>
+                            <div className="forbtn mt-2 text-center">
+                            <button onClick={()=> document.getElementById("exampleModal").style.display="none" } className="btn btn-primary text-center"><a href="/SignIn" >Sign In</a></button>
                             </div>
                         </div>
-                        <div class="PatientSec">
-                            <p class="signInTxt text-center">SignIn as a Patient</p>
-                            <div class="forbtn mt-2 text-center">
-                            <Link type="button" to="sign.html" class="btn btn-primary">Sign In</Link>
+                        <div className="PatientSec">
+                            <p className="signInTxt text-center">SignIn as a Patient</p>
+                            <div className="forbtn mt-2 text-center">
+                            <Link type="button" to="sign.html" className="btn btn-primary">Sign In</Link>
                             </div>
                         </div>
                     </div>
@@ -76,16 +85,16 @@ function Nav() {
                         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div className="modal-body">
-                        <div class="DrSec">
-                            <p class="makeOneTxt text-center">SignUp as a Doctor</p>
-                            <div class="forbtn mt-2 text-center">
-                            <Link type="button" to="#" class="btn btn-primary text-center">Sign Up</Link>
+                        <div className="DrSec">
+                            <p className="makeOneTxt text-center">SignUp as a Doctor</p>
+                            <div className="forbtn mt-2 text-center">
+                            <Link type="button" to="#" className="btn btn-primary text-center">Sign Up</Link>
                             </div>
                         </div>
-                        <div class="PatientSec">
-                            <p class="signInTxt text-center">SignUp as a Patient</p>
-                            <div class="forbtn mt-2 text-center">
-                            <Link type="button" to="#" class="btn btn-primary">Sign Up</Link>
+                        <div className="PatientSec">
+                            <p className="signInTxt text-center">SignUp as a Patient</p>
+                            <div className="forbtn mt-2 text-center">
+                            <Link type="button" to="#" className="btn btn-primary">Sign Up</Link>
                             </div>
                         </div>
                     </div>

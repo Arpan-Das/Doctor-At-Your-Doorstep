@@ -3,3 +3,9 @@ h1{
     color: black;
     margin-top: 50px;
 }
+#exampleModal{
+    display: none;
+}
+#FromWrapper{
+    z-index: 9;
+}
