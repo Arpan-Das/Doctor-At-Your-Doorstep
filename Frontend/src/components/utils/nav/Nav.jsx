@@ -9,7 +9,7 @@ function Nav() {
             <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
                 <div className="container-fluid">
 
-                <Link className="navbar-brand " to="#">
+                 <Link className="navbar-brand " to="#">
                         <img src={logo2} alt="" width="30" height="24" className="d-inline-block align-text-top" />
                         {"  "}Dr. Sourav
                     </Link>
@@ -37,13 +37,65 @@ function Nav() {
                             </li>
                         </ul>
                     </div>
-                    <button type="button" class="btn btn-outline-success mx-1">Success</button>
-                    <button type="button" class="btn btn-outline-primary mx-1">Success</button>
+                        <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        SignIn</button>
+                        <button type="button" className="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                        SignUp</button>
                 </div>
-                
             </nav>
+            <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div className="modal-dialog">
+                    <div className="modal-content">
+                    <div className="modal-header">
+                        <h5 className="modal-title" id="exampleModalLabel">Sign In</h5>
+                        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div className="modal-body">
+                        <div class="DrSec">
+                            <p class="makeOneTxt text-center">SignIn as a Doctor</p>
+                            <div class="forbtn mt-2 text-center">
+                            <Link type="button" to="/SignIn" class="btn btn-primary text-center">Sign In</Link>
+                            </div>
+                        </div>
+                        <div class="PatientSec">
+                            <p class="signInTxt text-center">SignIn as a Patient</p>
+                            <div class="forbtn mt-2 text-center">
+                            <Link type="button" to="sign.html" class="btn btn-primary">Sign In</Link>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            {/* mpdal---2 */}
+            <div className="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                <div className="modal-dialog">
+                    <div className="modal-content">
+                    <div className="modal-header">
+                        <h5 className="modal-title" id="exampleModalLabel1">Sign Up</h5>
+                        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div className="modal-body">
+                        <div class="DrSec">
+                            <p class="makeOneTxt text-center">SignUp as a Doctor</p>
+                            <div class="forbtn mt-2 text-center">
+                            <Link type="button" to="#" class="btn btn-primary text-center">Sign Up</Link>
+                            </div>
+                        </div>
+                        <div class="PatientSec">
+                            <p class="signInTxt text-center">SignUp as a Patient</p>
+                            <div class="forbtn mt-2 text-center">
+                            <Link type="button" to="#" class="btn btn-primary">Sign Up</Link>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
+    
 }
+
 
 export default Nav
