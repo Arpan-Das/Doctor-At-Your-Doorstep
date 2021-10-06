@@ -3,7 +3,7 @@ import "./Home.css";
 import poster from "../../utils/image/poster.webp";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import aboutI from "../../utils/image/about.png";
-import service1 from "../../utils/image/service1.png";
+import service1 from "../../utils/image/service.png";
 import Carosel from "../../utils/corosel/Carosel";
 
 function Home() {
@@ -36,10 +36,11 @@ function Home() {
       </div>
       <div className="separator" style={{}}></div>
 
-      <div className="about">
+      {/* <div className="about">
         <div className="about__iamge">
           <img src={aboutI} alt="" />
         </div>
+
         <div className="white">
           <div className="white__container">
             <div className="white__arrow">
@@ -51,6 +52,7 @@ function Home() {
             </div>
           </div>
         </div>
+
         <div className="blue">
           <div className="blue__text">
             With 25 year of industry experience,{" "}
@@ -58,9 +60,39 @@ function Home() {
             firm which helps leaders make sound business decisions.
           </div>
         </div>
-      </div>
+
+      </div> */}
+
       <div className="separator" style={{}}></div>
-     
+
+      <div className="about2">
+        <div className="container about2__container" >
+          <div className="about2__iamge">
+            <img src={aboutI} alt="" />
+          </div>
+          <div className="about2__right">
+            <div className="about2__white">
+              <div className="white2__arrow">
+                <ArrowRightAltIcon className="arrow" />
+              </div>
+              <div className="white2__text">
+                <div className="white2__line">All About</div>
+                Our Company
+              </div>
+            </div>
+            <div className="about2__blue">
+              <div className="blue2__text">
+                With 25 year of industry experience,{" "}
+                <strong>Carson, Reeve, & Yates</strong> is a management consultancy
+                firm which helps leaders make sound business decisions.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      {/* <div className="separator" style={{}}></div> */}
 
       <div className="services">
         <div className="service__container container">
@@ -114,6 +146,8 @@ function Home() {
           </div>
         </div>
       </div>
+      <div className="separator" style={{}}></div>
+
     </div>
   );
 }
