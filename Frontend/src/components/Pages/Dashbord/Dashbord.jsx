@@ -59,10 +59,10 @@ export default function Dashbord() {
         <img
           className="dashboard_image"
           src="https://www.denofgeek.com/wp-content/uploads/2016/10/doctor-strange-1.jpg?fit=1600%2C800"
-          alt=""
-          srcset=""
+        
         />
       </div>
+    <div className="searchDoctoe">
 
       <InputGroup
         className="container text-center mb-3 "
@@ -83,6 +83,7 @@ export default function Dashbord() {
           <Dropdown.Item href="#">Separated link</Dropdown.Item>
         </DropdownButton>
       </InputGroup>
+    </div>
 
       <div className="center dashboard__container ">
         <div className="row justify-content-center">

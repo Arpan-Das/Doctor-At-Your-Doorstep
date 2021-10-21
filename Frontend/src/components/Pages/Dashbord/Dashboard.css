@@ -1,3 +1,6 @@
+.poster{
+  width: 100%;
+}
 .dashboard_image{
     width:100%;
     height: 400px;
@@ -5,7 +8,6 @@
     margin-bottom: -150px;
     mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
 }
-.dashboard__container{
-    display: block;
-  text-align: -webkit-center;
+.row{
+  margin-right: 0;
 }

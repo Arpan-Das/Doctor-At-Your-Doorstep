@@ -24,7 +24,7 @@ function Nav() {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav">
-                        <ul className="navbar-nav">
+                        <ul className="navbar-nav mr-auto ">
                             <li className="nav-item">
                                 <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                             </li>
@@ -42,10 +42,12 @@ function Nav() {
                             </li>
                         </ul>
                     </div>
+                        <form className="form-inline my-2 my-lg-0">
                         <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         SignIn</button>
                         <button type="button" className="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
                         SignUp</button>
+                        </form>
                 </div>
             </nav>
             <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
