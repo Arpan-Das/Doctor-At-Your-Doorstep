@@ -8,6 +8,7 @@ import Home from './components/Pages/Home/Home';
 import NotFound from './components/utils/NotFound/NotFound'
 import Singin from './components/Pages/SignIn/Singin';
 import Doctors from './components/Pages/Doctors/Doctors';
+import Dashbord from './components/Pages/Dashbord/Dashbord';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route exact path='/' component={ Home } />
           <Route exact path='/SignIn' component={ Singin } />
           <Route exact path='/Find-Doctor' component={ Doctors } />
+          <Route exact path='/dashboard' component={ Dashbord } />
 
           {/* if someone enter some diff routes */}
           <Route component={NotFound} />

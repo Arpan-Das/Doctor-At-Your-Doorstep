@@ -1,34 +1,46 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import './Signin.css'
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Signin.css";
 
- function Singin() {
-     
-    return (
-        <div >
-          <div className="container">
-                <div className="row">
-                    <div className="col col-4">
-                        <div className="dctrimgsec bg-primary">
-                            <img src="" alt="doctorsignimgmodule" />
-                        </div>
-                    </div>    
-                    <div className="col col-8 pl-5">
-                        <div className="fromwrapper">
-                        <form id="Next">
-                                <h2 className="heading text-center mt-2 mb-3">Sign In</h2>
-                                <div className="form-group text-center">
-                                <label for="exampleInputEmail1">Email address</label>
-                                <input type="email" className="form-control text-center" id="exampleInputEmail1" aria-describedby="emailHelp"></input>
-                                <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
-                                </div>
-                                <div className="socialbtn">
-                                    <button className="btn btn-primary"><i className="fa fa-facebook" aria-hidden="true"></i></button>
-                                    <button className="btn btn-warning"><i className="fa fa-google" aria-hidden="true"></i></button>
-                                    <button className="btn btn-secondary"><i className="fa fa-apple" aria-hidden="true"></i></button>
-                                </div>
-                            </form>
-                            {/* -----------DOB AND NAME SECTION----------------
+function Singin() {
+  return (
+    <div>
+      <div className="container">
+        <div className="row">
+          <div className="col col-4">
+            <div className="dctrimgsec bg-primary">
+              <img src="" alt="doctorsignimgmodule" />
+            </div>
+          </div>
+          <div className="col col-8 pl-5">
+            <div className="fromwrapper">
+              <form id="Next">
+                <h2 className="heading text-center mt-2 mb-3">Sign In</h2>
+                <div className="form-group text-center">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input
+                    type="email"
+                    className="form-control text-center"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  ></input>
+                  <small id="emailHelp" className="form-text text-muted">
+                    We'll never share your email with anyone else.
+                  </small>
+                </div>
+                <div className="socialbtn">
+                  <button className="btn btn-primary">
+                    <i className="fa fa-facebook" aria-hidden="true"></i>
+                  </button>
+                  <button className="btn btn-warning">
+                    <i className="fa fa-google" aria-hidden="true"></i>
+                  </button>
+                  <button className="btn btn-secondary">
+                    <i className="fa fa-apple" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </form>
+              {/* -----------DOB AND NAME SECTION----------------
                             <form id="Next1">
                                 <h2 className="heading text-center mt-2 mb-3">Sign In</h2>
                                 <div className="form-group text-center">
@@ -77,23 +89,28 @@ import './Signin.css'
                                 </div>
                             </form> */}
 
-                        <div class="nextbtn">
-                            <button onclick= "myfunction()" className="btn btn-primary mt-2 mb-2"><i className="fa fa-arrow-right" aria-hidden="true"></i></button>
-                        </div>
-                        <div className="caresec text-center">
-                            <div>
-                                <Link to="#">Can't Sign in</Link>
-                            </div>
-                            <div>
-                                <Link to="#">Allready Have An Account</Link>
-                            </div>
-                        </div>
-                    </div>  
-                </div>   
+              <div class="nextbtn">
+                <button
+                  onclick="myfunction()"
+                  className="btn btn-primary mt-2 mb-2"
+                >
+                  <i className="fa fa-arrow-right" aria-hidden="true"></i>
+                </button>
+              </div>
+              <div className="caresec text-center">
+                <div>
+                  <Link to="#">Can't Sign in</Link>
+                </div>
+                <div>
+                  <Link to="#">Allready Have An Account</Link>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-    )
+  );
 }
 
-export default Singin
+export default Singin;
