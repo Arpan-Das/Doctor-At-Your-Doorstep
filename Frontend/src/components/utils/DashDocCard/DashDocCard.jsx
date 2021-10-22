@@ -16,7 +16,7 @@ export default function DashDocCard(props) {
             />
           </div>
           <div className="docCard__right">
-            <h2 className="doc__name">Dr.{props.docName}</h2>
+            <h2 className="doc__name">Dr. {props.docName}</h2>
             <h5 className="doc__expert">{props.docExpert}</h5>
             <h2 className="doc__experience">
               <strong>{props.experience} Years</strong>
