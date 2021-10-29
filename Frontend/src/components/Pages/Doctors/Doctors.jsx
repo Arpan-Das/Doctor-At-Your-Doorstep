@@ -18,49 +18,137 @@ function Doctors() {
                 <div className="row">
                     <div className="doctor_details col-md-5">
                         <h3>Sourav Chakraborty</h3>
-                        <div className="row">
-                            <div className="col-md-4">
-                                <h4>Gender</h4>
-                                <h4>Specialization</h4>
-                                <h4>Education</h4>
-                                <h4>Degree</h4>
-                                <h4>Award</h4>
-                                <h4 className="mt-4">Experience</h4>
-                                <h4>Attaching Hospital</h4><br></br>
-                                <h4 className="mt-4">Phone No.</h4>
+                        <div className="col-md-12">
+                            <div className="doc_gender">
+                                <div className="row">
+                                    <div className="gender_name">
+                                        <div className="row">
+                                            <div className="col-md-4">
+                                                <h4>Gender : </h4>
+                                            </div>
+                                            <div className="col-md-8">
+                                                <h5 className="mt-1"><i>Male</i></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div className="col-md-1">
-                                <h4> - </h4>
-                                <h4> - </h4>
-                                <h4> - </h4>
-                                <h4> - </h4>
-                                <h4> - </h4>
-                                <h4 className="mt-4"> - </h4>
-                                <h4 className="mt-3"> - </h4><br></br>
-                                <h4 className="mt-5"> - </h4>
+                            <div className="doc_specialist">
+                                <div className="row">
+                                    <div className="specialist_name">
+                                        <div className="row">
+                                            <div className="col-md-4">
+                                                <h4>Specialist : </h4>
+                                            </div>
+                                            <div className="col-md-8">
+                                                <h5 className="mt-1"><i>Dermatologist</i></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div className="col-md-2 mt-1">
-                                <h5><i>Male</i></h5>
-                                <h5 className="mt-2"><i>Dermatologist</i></h5>
-                                <h5 className="mt-3"><i>MBBS(cal),MD(cal)</i></h5>
-                                <h5 className="mt-3"><i>MBBS,MD</i></h5>
-                                <h5><i>Gold Medalist</i></h5>
-                                <h5><i>4 yrs</i></h5>
-                                <h5><i>Medical College And Hospital</i></h5>
-                                <h5 className="mt-4"><i>9007072130</i></h5>
+                            <div className="doc_education">
+                                <div className="row">
+                                    <div className="education_name">
+                                        <div className="row">
+                                            <div className="col-md-4">
+                                                <h4>Education : </h4>
+                                            </div>
+                                            <div className="col-md-8">
+                                                <h5 className="mt-1"><i>MBBS(cal),MD(cal)</i></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="doc_degree">
+                                <div className="row">
+                                    <div className="degree_name">
+                                        <div className="row">
+                                            <div className="col-md-4">
+                                                <h4>Degree : </h4>
+                                            </div>
+                                            <div className="col-md-8">
+                                                <h5 className="mt-1"><i>MBBS,MD</i></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="doc_award">
+                                <div className="row">
+                                    <div className="award_name">
+                                        <div className="row">
+                                            <div className="col-md-4">
+                                                <h4>Award : </h4>
+                                            </div>
+                                            <div className="col-md-8">
+                                                <h5 className="mt-1"><i>Gold Medalist</i></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="doc_experience">
+                                <div className="row">
+                                    <div className="experience_name">
+                                        <div className="row">
+                                            <div className="col-md-4">
+                                                <h4>Experience : </h4>
+                                            </div>
+                                            <div className="col-md-8">
+                                                <h5 className="mt-1"><i>4 years</i></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="doc_hospital">
+                                <div className="row">
+                                    <div className="hospital_name">
+                                        <div className="row">
+                                            <div className="col-md-4">
+                                                <h4>Hospital : </h4>
+                                            </div>
+                                            <div className="col-md-8">
+                                                <h5 className="mt-1"><i>Medical College and Hospital</i></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="doc_phone">
+                                <div className="row">
+                                    <div className="phone_name">
+                                        <div className="row">
+                                            <div className="col-md-4">
+                                                <h4>Phone No. : </h4>
+                                            </div>
+                                            <div className="col-md-8">
+                                                <h5 className="mt-1"><i>9007072130</i></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="doc_address">
+                                <div className="row">
+                                    <div className="address_name">
+                                        <div className="row">
+                                            <div className="col-md-4">
+                                                <h4>Address : </h4>
+                                            </div>
+                                            <div className="col-md-8">
+                                                <h5 className="mt-1"><i> First Floor, Block-A, 'Priyadarshini No. E7-99/A, New, Biren Roy Rd W, Kolkata, West Bengal 700141</i></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div className="mt-3">
                            <h4>Patient Viewed in last 2 months - <i>151</i></h4>
                         </div>
-                        {/*<h4>Gender - <i>Male</i></h4>
-                        <h4>Age - <i>21</i></h4>
-                        <h4>Specialization - <i>Dermatologist</i></h4>
-                        <h4>Education - <i>MBBS(cal),MD(cal)</i></h4>
-                        <h4>Degree - <i>MBBS,MD</i></h4>
-                        <h4>Experience - <i>4 years</i></h4>
-                        <h4>Attaching Hospital - <i>Medical College And Hospital</i></h4>
-                        <h4>Patient Viewed in last 2 months - <i>151</i></h4>*/}
                     </div>
 
                     <div className="col-md-3 mt-3">
