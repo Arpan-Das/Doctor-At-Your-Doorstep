@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Signin.css";
 
-function Singin() {
+function Signin() {
   return (
     <div>
       <div className="container">
@@ -113,4 +113,4 @@ function Singin() {
   );
 }
 
-export default Singin;
+export default Signin;

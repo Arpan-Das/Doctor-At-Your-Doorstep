@@ -66,6 +66,7 @@ export default function Dashbord() {
 
       <InputGroup
         className="container text-center mb-3 "
+        onChange={handleChange}
         style={{ width: "82%" }}
       >
         <FormControl aria-label="Text input with dropdown button" />

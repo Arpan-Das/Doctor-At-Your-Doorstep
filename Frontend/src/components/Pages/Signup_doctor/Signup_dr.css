@@ -1,0 +1,55 @@
+
+
+h1{
+    /* height: 234px; */
+    color: black;
+    margin-top: 50px;
+}
+#exampleModal{
+    display: none;
+}
+#FromWrapper{
+    z-index: 9;
+}
+/* .container{
+    background-image: linear-gradient(to right, red , yellow);
+} */
+.dctrimgsec {
+    margin-top: 152px;
+    height: 50%;
+    /* width: 50; */
+}
+.fromwrapper {
+    padding: 28px;
+    height: 413px;
+    width: 68%;
+    background: #8bc34a61;
+    /* transform: translate(78%, 18%); */
+    border: none;
+    border-radius: 16px;
+    text-align: center;
+    margin-bottom: 33px;
+    margin-top: 86px;
+}
+.col-8{
+    padding-left: 169px;
+}
+.socialbtn{
+    padding: 31px;
+}
+.btn{
+    margin-left: 2px;
+    margin-right: 8px;
+}
+
+#form2,#form3,#form4,#form5{
+    display: none;
+}
+
+
+
+
+
+
+
+
