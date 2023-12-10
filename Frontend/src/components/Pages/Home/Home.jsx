@@ -18,7 +18,7 @@ function Home() {
           <ArrowRightAltIcon className="arrow" /> Doctor At Your
           <br />
           <span className="white__line"></span>
-          Footstep
+          Door-Step
         </div>
       </div>
 

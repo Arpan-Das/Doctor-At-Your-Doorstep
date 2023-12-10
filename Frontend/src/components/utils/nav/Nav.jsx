@@ -16,7 +16,7 @@ function Nav() {
 
                  <Link className="navbar-brand " to="#">
                         <img src={logo2} alt="" width="30" height="24" className="d-inline-block align-text-top" />
-                        {"  "}Dr. Sourav
+                        {"  "}D.A.Y.Doorstep
                     </Link>
 
                     

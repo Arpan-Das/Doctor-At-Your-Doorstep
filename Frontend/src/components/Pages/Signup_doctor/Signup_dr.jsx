@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link, useHistory } from "react-router-dom";
+import Doc_image from '../../utils/image/logo2.png';
 
 import "./Signup_dr.css";
 
@@ -128,7 +129,7 @@ export default function Signup_dr(props) {
         <div className="row">
           <div className="col col-4">
             <div className="dctrimgsec bg-primary">
-              <img src="" alt="doctorsignimgmodule" />
+              <img src={Doc_image} alt="doctorsignimgmodule" width="356" />
             </div>
           </div>
           <div className="col col-8 pl-5">
